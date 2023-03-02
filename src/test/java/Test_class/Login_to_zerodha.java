@@ -10,6 +10,22 @@ public class Login_to_zerodha {
 	@BeforeClass
 	public void beforeClass( )
 	{
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		driver = Base_class1.getDriver("chrome");
+	}
+	
+	@BeforeClass
+	public void beforeClass2( )
+	{
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
+		System.out.println("develop branch");
 		driver = Base_class1.getDriver("chrome");
 		System.out.println("here also changing");
 	}
